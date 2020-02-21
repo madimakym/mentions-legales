@@ -1,0 +1,244 @@
+body{
+  font-family: -apple-system,BlinkMacSystemFont,
+  Arial,Helvetica Neue, 
+  sans-serif;
+  color: #2e3235;
+}
+
+@font-face {
+  font-family: 'shoppingscript';
+  src: url('../fonts/shoppingscript.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+  }
+
+  .text-content {
+    text-align: center;
+  }
+  .text-content ul {
+    display: inline-flex;
+    padding: inherit;
+  }
+  .text-content ul li {
+    list-style: none;
+    padding: 14px;
+  }
+  .text-content ul li a {
+    color: #2e3235 !important;
+  }
+  
+  span a {
+    text-decoration: none;
+    padding: 0 0 3px;
+    border-bottom: 1px solid transparent;
+    color: #444444;
+    font-size: 14px;
+  }
+  
+  .phone a {
+    font-size: 12px;
+  }
+
+  .home {
+    /* min-height: 84vh;
+    min-width: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center; */
+  }
+  .home h1 {
+    font-size: 100px;
+    padding-bottom: 15px;
+    font-weight: 500;
+    font-family: "shoppingscript";
+  }
+  .home p {
+    font-size: 16px;
+    font-style: italic;
+  }
+
+  .home ul {
+      list-style: none;
+      display: inline-flex;
+      padding: inherit;
+  }
+
+  .home ul li{
+    padding: 16px;
+}
+  
+.header{
+  background: #193975;
+  padding: 38px;
+  margin-bottom: 50px;
+  /* background-image: url(../img/bg.png); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav-link .active{
+  color: #183975;
+}
+
+.header h2{
+  color: white;
+  font-size: 41px;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-shadow: 0.13em 0.12em rgba(0, 0, 0, 0.45);
+}
+
+.portfolio-item{
+  border-radius: 10px;
+    position: relative;
+    padding: 2px;
+    box-shadow: 10px 12px 41px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.portfolio-item img{
+  border-radius: 10px 10px 0 0;
+}
+
+.info-content{
+  padding: 10px;
+}
+
+.info-content a{
+  border: 1px solid;
+  padding: 0px 12px 0px 12px;
+  border-radius: 2px;
+  font-size: 12px;
+}
+
+.detail-portfolio{
+
+}
+
+.detail-portfolio .blc-1 img{
+  border-radius: 10px;
+  box-shadow: 10px 12px 41px rgba(0,0,0,0.1);
+}
+
+.detail-portfolio .blc-2 img{
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0, 0, 0, 0.08);
+}
+
+.detail-portfolio h4{
+  font-size: 20px;
+}
+
+.detail-portfolio h4 span{
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.info-content h4{
+  font-size: 18px;
+}
+
+.info-content span{
+  font-size: 15px;
+  color: gray;
+}
+
+.info-content h4 span{
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.detail-portfolio h4 a{
+  font-size: 17px !important;
+  font-weight: 300;
+}
+
+
+.button{
+  padding: 10px;
+  padding: 5px 10px 5px 10px;
+  font-size: 18px;
+  text-transform: initial;
+  color: black;
+  font-weight: 300;
+  margin: 5px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 10px 12px 41px rgba(0,0,0,0.1) !important;
+}
+
+.apropos {
+  text-align: center;
+  margin-top: 67px;
+}
+.apropos h1 {
+  font-size: 31px;
+  font-weight: 300;
+}
+.apropos p {
+  font-size: 15px;
+}
+.apropos span a {
+  font-weight: 600;
+}
+
+.separator {
+  position: relative;
+  width: 100%;
+  margin: 18px 0 15px;
+  height: 5px;
+  display: block;
+  color: blanchedalmond;
+}
+
+.separator span {
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  margin: 0 0 0 34px;
+  width: 5px;
+  height: 5px;
+  background: #ffffff;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.3);
+}
+
+.separator span:after,
+.separator span:before {
+  content: "";
+  vertical-align: top;
+  display: inline-block;
+  width: 66px;
+  height: 2px;
+  border-bottom: 1px solid #ffffff;
+  position: absolute;
+  top: 0;
+  right: 12px;
+  text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.3);
+}
+
+.separator span:after {
+  left: 12px;
+  right: inherit;
+}
+
+.align-center .separator span,
+.align-center.separator span {
+  margin: 0 auto;
+}
+
+.code h4{
+  font-size: 40px;
+    font-weight: 200;
+}
+
+.code img{
+  width: 30%;
+}

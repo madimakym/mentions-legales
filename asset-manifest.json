@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34de6062.chunk.css",
+    "main.js": "/static/js/main.4ef5fa31.chunk.js",
+    "main.js.map": "/static/js/main.4ef5fa31.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a5eaf332.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a5eaf332.js.map",
+    "static/js/2.7e784394.chunk.js": "/static/js/2.7e784394.chunk.js",
+    "static/js/2.7e784394.chunk.js.map": "/static/js/2.7e784394.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e4fd2928612cadcb8c9f8e4c4a60f064.js": "/precache-manifest.e4fd2928612cadcb8c9f8e4c4a60f064.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/static/css/main.34de6062.chunk.css.map",
+    "static/media/acmu.png": "/static/media/acmu.b09bd1d7.png",
+    "static/media/aww7.png": "/static/media/aww7.68539483.png",
+    "static/media/blocnote.png": "/static/media/blocnote.7c8835a4.png",
+    "static/media/github.jpg": "/static/media/github.0ebd40ed.jpg",
+    "static/media/otour.png": "/static/media/otour.05cd8ef2.png",
+    "static/media/skill.png": "/static/media/skill.589ac0f9.png",
+    "static/media/ziksen.png": "/static/media/ziksen.ef487541.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a5eaf332.js",
+    "static/js/2.7e784394.chunk.js",
+    "static/css/main.34de6062.chunk.css",
+    "static/js/main.4ef5fa31.chunk.js"
+  ]
+}
